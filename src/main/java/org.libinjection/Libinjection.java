@@ -44,7 +44,7 @@ public class Libinjection {
 	public static final char CHAR_DOUBLE = '"'; 
 	public static final char CHAR_TICK = '`';
 
-	private Keyword keywords = new Keyword("src/Keywords.txt");  /* keyword hashmap */
+	private Keyword keywords = new Keyword("/Keywords.txt");  /* keyword hashmap */
 	private State state;
 	private String output;
 	
